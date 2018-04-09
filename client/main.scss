@@ -1,0 +1,61 @@
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+		height: 100%;
+		width: 100vw;
+		font-family: "Open Sans", Arial, sans-serif !important;
+		margin: 0;
+		padding: 0;
+}
+
+body {
+		max-width: 100vw;
+		max-height: 100vh;
+		background-color: #FEFFEF !important;
+}
+
+#header {
+		width: 100vw;
+		height: 10vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #BDBDBD;
+		color: #5F5F5F;
+}
+
+#footer {
+		width: 100vw;
+		height: 5vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #BDBDBD;
+		color: #5F5F5F;
+}
+
+h1,
+h2,
+h3 {
+		margin: 0 !important;
+		padding: 0 !important;
+		font-size: 2vw;
+}
+
+#footer b {
+		font-size: 1vw;
+}
+
+#main {
+		min-height: 85vh;
+		height: 85vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+}
+
+
+
+
+
