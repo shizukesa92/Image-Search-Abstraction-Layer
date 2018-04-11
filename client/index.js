@@ -1,5 +1,5 @@
 const request = new XMLHttpRequest();
-request.open("GET", "/api", true);
+request.open("GET", "/", true);
 
 request.onload = () => {
 	if (request.status >= 200 && request.status < 400) {

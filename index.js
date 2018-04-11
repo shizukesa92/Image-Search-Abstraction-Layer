@@ -9,8 +9,7 @@ app.use(bodyParser.urlencoded({
 	extended: true
 }));
 
-app.use("/api", api); // Mandatory for template variables to work
-app.use("/api/shorturl", api);
+app.use("/", api); // Mandatory for template variables to work
 
 app.use(express.static("./dist/client")); // Use dist and not client because server renders dist
 
