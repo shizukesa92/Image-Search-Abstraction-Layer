@@ -1,7 +1,7 @@
 module.exports = {
-parser: 'postcss-scss',
-plugins: [
-require('precss'),
-            require('autoprefixer')
-]
+	parser: "postcss-scss",
+	plugins: [
+		require("precss"),
+		require("autoprefixer")
+	]
 }

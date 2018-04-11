@@ -4,4 +4,4 @@
 
 ## FreeCodeCamp's version [(Search)](https://cryptic-ridge-9197.herokuapp.com/api/imagesearch/lolcats%20funny?offset=10) [(Browse)](https://cryptic-ridge-9197.herokuapp.com/api/latest/imagesearch/)
 
-## [My Version hosted on Heroku](https://afternoon-temple-48254.herokuapp.com/)
+## [My Version hosted on Heroku](https://infinite-anchorage-98159.herokuapp.com/)

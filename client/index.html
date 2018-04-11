@@ -10,6 +10,7 @@
 
 <body>
 	<div id="container">
+		<!-- Need to include wrapper ("container" in this case) for footer to stay at bottom -->
 		<div id="header">
 			<h1>API Project: Image Search Abstraction Layer</h1>
 		</div>
@@ -22,7 +23,7 @@
 					<li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
 					<li>I can get a list of the most recently submitted search strings.</li>
 				</ol>
-				<h3>Example query usage:</h3><code>/lolcats%20funny?offset=10</code><br/><code>/latest</code>
+				<h3>Example query usage:</h3><code><span class ="hostURL"></span>/lolcats%20funny?offset=10</code><br/><code><span class = "hostURL"></span>/latest</code>
 				<h3>Example query output:</h3><code>[{
 "url": "http://data.whicdn.com/images/34129178/large.jpg",
 "snippet": "this image include: funny",
