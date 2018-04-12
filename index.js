@@ -3,13 +3,13 @@ const app = express();
 const route = require("./server/routes/router");
 const mongo = require("mongodb").MongoClient;
 const dotenv = require("dotenv").config();
-
 const uri = process.env.MONGOLAB_URI;
 
 mongo.connect(uri, (err, db) => {
 	if (err) {
 		console.log("Unable to connect to server", err);
 	} else {
+		console.log("connected");
 		route(app, db);
 	}
 });

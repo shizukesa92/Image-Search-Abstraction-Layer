@@ -30,6 +30,7 @@
 		"redux": "^3.7.2",
 		"redux-batched-actions": "^0.2.1",
 		"redux-thunk": "^2.2.0",
+		"request": "^2.85.0",
 		"sass-loader": "^6.0.7",
 		"style-loader": "^0.20.3"
 	},
