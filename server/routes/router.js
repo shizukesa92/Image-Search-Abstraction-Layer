@@ -6,8 +6,7 @@ module.exports = (app, db) => { // Must pass app in as argument and not just def
 
 	const database = db.db("image-search-abstraction-layer-fcc"),
 		collection = database.collection("images");
-	//TODO: :search interfefering with /api call
-	/*app.get("/:search", (req, res) => {
+	app.get("/search/:search", (req, res) => {
 		const url = `https://www.googleapis.com/customsearch/v1?key=AIzaSyCqlMaAya6CnhDtIvnZTeGIUNWKKLHPMo0&searchType=image&fields=items(htmlTitle,link,snippet,image/contextLink,image/thumbnailLink)&prettyPrint=false&cx=${process.env.SEARCHID}&q=`
 		var startIndex = 1;
 		var searchTerm = req.params.query;
@@ -33,7 +32,7 @@ module.exports = (app, db) => { // Must pass app in as argument and not just def
 			"when": date
 		})
 
-	});*/
+	});
 
 
 	app.get("/latest", (req, res) => {
