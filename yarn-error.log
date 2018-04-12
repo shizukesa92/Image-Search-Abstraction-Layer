@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add b1
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start dev
 
 PATH: 
-  C:\tools\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\tools\cmder\vendor\conemu-maximus5;C:\tools\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\Users\Owner\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\PROGRAM FILES (X86)\AMD APP\BIN\X86_64;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC;C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Gow\bin;C:\Program Files (x86)\vim\vim80;C:\ProgramData\chocolatey\lib\curl\tools\curl_x64;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\Owner\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python35\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps\;C:\tools\cmder\;C:\Users\Owner\AppData\Local\GitHubDesktop\bin\;C:\Program Files\CMake\bin\;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\;C:\Users\Owner\AppData\Roaming\npm\;C:\Program Files\MongoDB\Server\3.6\bin\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Heroku\bin;C:\Program Files\Git\bin;C:\Program Files\Git\usr\bin
+  C:\tools\cmder\bin;C:\tools\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\tools\cmder\vendor\conemu-maximus5;C:\tools\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\Users\Owner\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\PROGRAM FILES (X86)\AMD APP\BIN\X86_64;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC;C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Gow\bin;C:\Program Files (x86)\vim\vim80;C:\ProgramData\chocolatey\lib\curl\tools\curl_x64;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\Owner\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python35\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps\;C:\tools\cmder\;C:\Users\Owner\AppData\Local\GitHubDesktop\bin\;C:\Program Files\CMake\bin\;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\;C:\Users\Owner\AppData\Roaming\npm\;C:\Program Files\MongoDB\Server\3.6\bin\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Heroku\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\tools\cmder\
 
 Yarn version: 
   1.5.1
@@ -46,6 +46,7 @@ npm manifest:
   		"redux": "^3.7.2",
   		"redux-batched-actions": "^0.2.1",
   		"redux-thunk": "^2.2.0",
+  		"request": "^2.85.0",
   		"sass-loader": "^6.0.7",
   		"style-loader": "^0.20.3"
   	},
@@ -6618,7 +6619,7 @@ Lockfile:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   
-  request@2:
+  request@2, request@^2.85.0:
     version "2.85.0"
     resolved "https://registry.yarnpkg.com/request/-/request-2.85.0.tgz#5a03615a47c61420b3eb99b7dba204f83603e1fa"
     dependencies:
@@ -8196,11 +8197,16 @@ Lockfile:
       yeoman-environment "^2.0.5"
 
 Trace: 
-  Error: Couldn't find package "b1" on the "npm" registry.
-      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
-      at NpmResolver.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:51625:15)
-      at Generator.next (<anonymous>)
-      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
-      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
-      at <anonymous>
-      at process._tickCallback (internal/process/next_tick.js:118:7)
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c node index.js dev
+  Directory: D:\Dropbox\Repositories\Image-Search-Abstraction-Layer
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:127:13)
+      at maybeClose (internal/child_process.js:936:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
